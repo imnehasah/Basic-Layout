@@ -1,0 +1,155 @@
+
+/*----------------------------------
+		pramary-heading
+-------------------------------------*/
+.primary-heading{
+	font-family:"Helvetica Neue", Helvetica, arial, sans-serif;
+	margin-top:30px;
+	font-weight:bold;
+	color:#648880;
+	padding-bottom:50px;     
+}
+.start{
+	float:left;
+	padding-left:80px;
+	text-transform:capitalize;
+	font-size:15px;    
+}
+.start h1{
+
+}
+.menu{
+	float:right;
+	padding-right:80px;
+	text-transform:capitalize;
+	font-size:15px;	     
+}
+.menu ul li{
+	display:inline;
+	padding:0 20px;  
+}
+/*-----------------------------
+	Ancher
+---------------------------------*/	
+a{
+	text-decoration:none;
+	color:#648880;  
+}
+a:hover{ 
+    background-color:transparent;
+    color:black;
+}
+/*------------------------------
+		container
+-------------------------------*/
+.container{
+	background-image: url("intro.jpg");
+	width:100%;
+	height:600px;
+	clear:both;
+	background-repeat:no-repeat;
+	background-size:cover; 
+}
+/*-------------------------------
+	primary-text
+----------------------------------*/
+.primary-text{
+	text-align:center;
+	color:white;
+	padding-top:15%;
+	line-height:60px;  	  
+}
+.primary-text h1{
+	font-size:80px;
+	font-weight:600;
+	word-spacing:30px;  
+}
+.primary-text h2{
+	font-size:30px;
+	font-weight:300px;
+	font-style:italic;   
+}
+/*
+--------------------------------
+		button
+--------------------------------*/
+.logo{
+	font-size:15px;
+	border-radius:10px;
+	width:150px;
+	height:50px;
+	background-color:white;
+	color:#383939;
+	word-spacing:30px;      
+}
+button span{
+	padding-left: 5px;
+}
+.line{
+	width: 400px;
+}
+/*
+--------------------------------------
+	primary-image
+--------------------------------------*/
+.primary-image{
+	padding-top:40px;
+	background-color:#F8F8F8;
+	height:400px;   
+
+}
+.paragraph{
+	float:left;
+	padding-left:100px;
+	line-height:32px;
+	padding-top:40px;    
+}
+.paragraph h1{
+	font-size:30px;
+	color:#404041;
+	font-weight:500;   
+}
+.paragraph p{
+	font-size:20px;
+	color:#61625C;  
+}
+.picture{
+	float:right;
+	padding-right:100px; 
+}
+.pic{
+height:auto;
+width:420px;
+}
+.style{
+	color:#328AA3; 
+}
+/*--------------------------
+	secondry-image
+----------------------------*/
+.secondary-image{
+	padding-top:60px;
+	clear:both;
+	line-height:30px;   
+
+}
+.pic1{
+	height:auto;
+	width:400px;  
+}
+.picture1{
+	float:left;
+	padding-left:100px;  
+}
+.para1{
+	float:right;
+	padding-right:100px;
+	padding-top:40px;   
+}
+.para1 h1{
+	font-size:30px; 
+}
+.para1 p{
+	font-size:20px;
+	color:#61625C;  
+}
