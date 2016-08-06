@@ -16,7 +16,6 @@
 	font-size:15px;    
 }
 .start h1{
-
 }
 .menu{
 	float:right;
@@ -28,7 +27,7 @@
 	display:inline;
 	padding:0 20px;  
 }
-/*-----------------------------
+/*-------------------------------
 	Ancher
 ---------------------------------*/	
 a{
@@ -67,7 +66,8 @@ a:hover{
 .primary-text h2{
 	font-size:30px;
 	font-weight:300px;
-	font-style:italic;   
+	font-style:italic;
+
 }
 /*
 --------------------------------
@@ -96,7 +96,6 @@ button span{
 	padding-top:40px;
 	background-color:#F8F8F8;
 	height:400px;   
-
 }
 .paragraph{
 	float:left;
@@ -130,7 +129,8 @@ width:420px;
 .secondary-image{
 	padding-top:60px;
 	clear:both;
-	line-height:30px;   
+	line-height:30px;
+	height:400px;    
 
 }
 .pic1{
@@ -152,4 +152,89 @@ width:420px;
 .para1 p{
 	font-size:20px;
 	color:#61625C;  
+}
+/*-------------------------------------
+		next-images
+---------------------------------------*/
+.next-image{
+	clear:both;
+	padding-top:20px;
+	line-height:30px;
+	height:430px;
+	background-color:#F8F8F8;  
+ 
+}
+.para2{
+	float:left;
+	padding-left:80px;
+	padding-top:10%;  
+}
+.para2 h1{
+	font-size:30px;
+	font-weight:600
+	color:#413C35; 
+}
+.para2 p{
+	line-height:26px; 
+	font-size:20px;
+	color:#61625C;  
+}
+.pic2{
+	width:450px;
+	height:auto; 
+}
+.picture2{
+	float:right;
+	padding-right:80px; 
+}
+/*------------------------------
+	container1
+--------------------------------*/
+.container1{
+	background-image:url("b.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:230px;
+	clear: both;
+	background-position:70% 70%; 
+}
+.para3{
+	float:left;
+	padding-left: 70px; 
+}
+.button{
+	float:right;
+	padding-right:70px;  
+}
+.textbutn{
+	padding-top:6%; 
+}
+.para3 h1{
+	font-size:45px;
+	color: white;
+	font-weight:bold;  
+}
+/*----------------------------------
+	primary-footer
+-------------------------------------*/
+.primary-footer{
+	clear:both;
+	line-height:30px;
+	height:100px;   
+}
+.primary-footer ul li{ 
+	display:inline;
+	padding:0 30px;   
+}
+.primary-footer h1{
+	font-size:20px;
+	padding-left:22px;
+	color:#61625C;   
+}
+.primary-footer ul li a {
+	color:#3BA8F0;
+	font-weight:bold;   
+}
+.primary-footer ul{
+	text-decoration:disc;
 }
