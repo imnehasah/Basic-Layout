@@ -1,21 +1,27 @@
-
+/*----------------------------------
+	body
+------------------------------------*/
+body{
+	font-family:"Lato", Helvetica,arial,sans-serif;
+}
 /*----------------------------------
 		pramary-heading
 -------------------------------------*/
 .primary-heading{
-	font-family:"Helvetica Neue", Helvetica, arial, sans-serif;
-	margin-top:30px;
+	font-family:"Lato", Helvetica, arial, sans-serif;
+	paint-order: fixed;
 	font-weight:bold;
 	color:#648880;
-	padding-bottom:50px;     
+	background: white;
+	width: 100%;
+	padding-top: 40PX;
+	padding-bottom:30PX;     
 }
-.start{
+.start h1{
 	float:left;
 	padding-left:80px;
 	text-transform:capitalize;
-	font-size:15px;    
-}
-.start h1{
+	font-size:14px; 	   
 }
 .menu{
 	float:right;
@@ -25,7 +31,8 @@
 }
 .menu ul li{
 	display:inline;
-	padding:0 20px;  
+	padding: 0 20px;
+	font-size:14px;  	
 }
 /*-------------------------------
 	Ancher
@@ -55,19 +62,19 @@ a:hover{
 .primary-text{
 	text-align:center;
 	color:white;
-	padding-top:15%;
-	line-height:60px;  	  
+	padding-top:15%;	 	  
 }
 .primary-text h1{
-	font-size:80px;
-	font-weight:600;
-	word-spacing:30px;  
+	font-size:70px;
+	font-weight:bold;
+	line-height:97px;
+	font-family:"Lato", Helvetica,arial,sans-serif;    
 }
 .primary-text h2{
-	font-size:30px;
-	font-weight:300px;
-	font-style:italic;
-
+	font-size:24px;
+	font-weight:bold;
+	line-height:43px;
+	font-family: "Lato", Helvetica,arial,sans-serif;
 }
 /*
 --------------------------------
@@ -80,13 +87,20 @@ a:hover{
 	height:50px;
 	background-color:white;
 	color:#383939;
-	word-spacing:30px;      
-}
+	line-height:30px; 
+	}
 button span{
 	padding-left: 5px;
 }
 .line{
-	width: 400px;
+	width: 400px;	
+}
+.logo span{
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	font-family:"Lato", Helvetica,arial,sans-serif;
+	font-weight:400px;  
 }
 /*
 --------------------------------------
@@ -106,11 +120,16 @@ button span{
 .paragraph h1{
 	font-size:30px;
 	color:#404041;
-	font-weight:500;   
+	font-weight:bold;
+	line-height:33px;
+	font-family:"Lato", Helvetica,arial,sans-serif;
+	clear:left;
+	padding-top:20px;      
 }
 .paragraph p{
 	font-size:20px;
-	color:#61625C;  
+	color:#61625C;
+	font-family: "Lato",Helvetica,arial,sans-serif;  
 }
 .picture{
 	float:right;
@@ -122,6 +141,11 @@ width:420px;
 }
 .style{
 	color:#328AA3; 
+}
+.line1{
+	width:200px;
+	float:left;
+	border-bottom:2px solid #CFCFCF;   
 }
 /*--------------------------
 	secondry-image
@@ -147,11 +171,26 @@ width:420px;
 	padding-top:40px;   
 }
 .para1 h1{
-	font-size:30px; 
+	font-size:30px;
+	font-family: "Lato", Helvetica,arial,sans-serif;
+	color:#404041;
+	font-weight:bold;
+	clear: right;
+	padding-top:20px; 
+	
+}
+
+ .line2{
+ 	width:150px;
+ 	padding-right:60%;
+ 	float:right;  
+	border-bottom:2px solid #CFCFCF;
+ }
 }
 .para1 p{
 	font-size:20px;
-	color:#61625C;  
+	color:#61625C; 
+	font-family: "Lato",Helvetica,arial,sans-serif; 
 }
 /*-------------------------------------
 		next-images
@@ -161,8 +200,7 @@ width:420px;
 	padding-top:20px;
 	line-height:30px;
 	height:430px;
-	background-color:#F8F8F8;  
- 
+	background-color:#F8F8F8;   
 }
 .para2{
 	float:left;
@@ -171,13 +209,15 @@ width:420px;
 }
 .para2 h1{
 	font-size:30px;
-	font-weight:600
-	color:#413C35; 
+	font-weight:bold;
+	color:#413C35;
+	font-family: "Lato",Helvetica,arial,sans-serif; 
 }
 .para2 p{
 	line-height:26px; 
 	font-size:20px;
-	color:#61625C;  
+	color:#61625C;
+	font-family: "Lato", Helvetica,arial,sans-serif;  
 }
 .pic2{
 	width:450px;
@@ -212,7 +252,8 @@ width:420px;
 .para3 h1{
 	font-size:45px;
 	color: white;
-	font-weight:bold;  
+	font-weight:bold;
+	font-family:"Lato", Helvetica,arial,sans-serif;      
 }
 /*----------------------------------
 	primary-footer
@@ -220,21 +261,26 @@ width:420px;
 .primary-footer{
 	clear:both;
 	line-height:30px;
-	height:100px;   
-}
+	height:100px;
+	padding-top:50px; 
+	}
 .primary-footer ul li{ 
 	display:inline;
-	padding:0 30px;   
+	padding:0 15px;
+	font-family:"Lato", Helvetica,arial,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	padding-left:20px;     
+   
 }
 .primary-footer h1{
-	font-size:20px;
+	font-size:11px;
 	padding-left:22px;
-	color:#61625C;   
+	color:#61625C;
+	font-family:"Lato", Helvetica,arial,sans-serif;
+	line-height:17px;        
 }
 .primary-footer ul li a {
 	color:#3BA8F0;
 	font-weight:bold;   
-}
-.primary-footer ul{
-	text-decoration:disc;
 }
