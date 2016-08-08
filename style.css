@@ -9,13 +9,15 @@ body{
 -------------------------------------*/
 .primary-heading{
 	font-family:"Lato", Helvetica, arial, sans-serif;
-	paint-order: fixed;
+	position:fixed;
 	font-weight:bold;
 	color:#648880;
 	background: white;
 	width: 100%;
-	padding-top: 40PX;
-	padding-bottom:30PX;     
+	padding-top: 20PX;
+	padding-bottom:20PX;
+	background:#F6FAFE;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.6);       
 }
 .start h1{
 	float:left;
@@ -68,13 +70,20 @@ a:hover{
 	font-size:70px;
 	font-weight:bold;
 	line-height:97px;
-	font-family:"Lato", Helvetica,arial,sans-serif;    
+	font-family:"Lato", Helvetica,arial,sans-serif;
+	text-shadow:2px 2px 3px rgba(0,0,0,0.6);     
 }
 .primary-text h2{
 	font-size:24px;
 	font-weight:bold;
 	line-height:43px;
 	font-family: "Lato", Helvetica,arial,sans-serif;
+	text-shadow:2px 2px 3px rgba(0,0,0,0.6);
+}
+.primary-text button{
+	margin-right:10px;
+	border:none;
+
 }
 /*
 --------------------------------
@@ -82,18 +91,22 @@ a:hover{
 --------------------------------*/
 .logo{
 	font-size:15px;
-	border-radius:10px;
+	border-radius:5px;
 	width:150px;
 	height:50px;
 	background-color:white;
 	color:#383939;
-	line-height:30px; 
+	line-height:30px;
+	padding-right: 30px;
+	margin-right:8px;
+	border:none;  
 	}
 button span{
 	padding-left: 5px;
 }
 .line{
-	width: 400px;	
+	width: 400px;
+	margin-bottom:30px; 	
 }
 .logo span{
 	font-size: 14px;
@@ -101,6 +114,9 @@ button span{
 	letter-spacing: 2px;
 	font-family:"Lato", Helvetica,arial,sans-serif;
 	font-weight:400px;  
+}
+.button{
+	padding:30px; 
 }
 /*
 --------------------------------------
@@ -142,10 +158,14 @@ width:420px;
 .style{
 	color:#328AA3; 
 }
+style:hover{
+	text-decoration:underline; 
+}
+
 .line1{
 	width:200px;
 	float:left;
-	border-bottom:2px solid #CFCFCF;   
+	border-top:3px solid #e7e7e7;   
 }
 /*--------------------------
 	secondry-image
@@ -168,7 +188,7 @@ width:420px;
 .para1{
 	float:right;
 	padding-right:100px;
-	padding-top:40px;   
+	padding-top:20px;   
 }
 .para1 h1{
 	font-size:30px;
@@ -176,17 +196,14 @@ width:420px;
 	color:#404041;
 	font-weight:bold;
 	clear: right;
-	padding-top:20px; 
-	
+	padding-top:40px; 	
 }
-
  .line2{
- 	width:150px;
- 	padding-right:60%;
- 	float:right;  
-	border-bottom:2px solid #CFCFCF;
+ 	width:200px;
+ 	float:left;  
+	border-top:3px solid #e7e7e7;
  }
-}
+
 .para1 p{
 	font-size:20px;
 	color:#61625C; 
@@ -211,7 +228,9 @@ width:420px;
 	font-size:30px;
 	font-weight:bold;
 	color:#413C35;
-	font-family: "Lato",Helvetica,arial,sans-serif; 
+	font-family: "Lato",Helvetica,arial,sans-serif;
+	clear:left;
+	padding-top:30px;   
 }
 .para2 p{
 	line-height:26px; 
@@ -226,6 +245,11 @@ width:420px;
 .picture2{
 	float:right;
 	padding-right:80px; 
+}
+.line3{
+	width:200px;
+	float:left;
+	border-top:3px solid #e7e7e7;   
 }
 /*------------------------------
 	container1
@@ -244,7 +268,7 @@ width:420px;
 }
 .button{
 	float:right;
-	padding-right:70px;  
+	padding-right:70px;
 }
 .textbutn{
 	padding-top:6%; 
@@ -253,7 +277,8 @@ width:420px;
 	font-size:45px;
 	color: white;
 	font-weight:bold;
-	font-family:"Lato", Helvetica,arial,sans-serif;      
+	font-family:"Lato", Helvetica,arial,sans-serif;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);      
 }
 /*----------------------------------
 	primary-footer
@@ -262,7 +287,9 @@ width:420px;
 	clear:both;
 	line-height:30px;
 	height:100px;
-	padding-top:50px; 
+	padding-top:50px;
+	padding-left: 4%;
+
 	}
 .primary-footer ul li{ 
 	display:inline;
@@ -270,17 +297,19 @@ width:420px;
 	font-family:"Lato", Helvetica,arial,sans-serif;
 	font-size: 14px;
 	line-height: 20px;
-	padding-left:20px;     
-   
+	padding-left:20px;       
 }
 .primary-footer h1{
 	font-size:11px;
 	padding-left:22px;
 	color:#61625C;
 	font-family:"Lato", Helvetica,arial,sans-serif;
-	line-height:17px;        
+	line-height:17px; 
+	line-height:30px;        
 }
 .primary-footer ul li a {
 	color:#3BA8F0;
 	font-weight:bold;   
 }
+
+
